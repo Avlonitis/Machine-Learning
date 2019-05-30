@@ -108,4 +108,3 @@ for s in ['sgd','adam']:
         print("Mean fmeasure: "+str(meanfmeasure))
         print("Mean sensitivity: "+str(meansensitivity))
         print("Mean specificity: "+str(meanspecificity))
-     
