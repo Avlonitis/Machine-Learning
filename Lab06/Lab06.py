@@ -68,6 +68,7 @@ def nbtrain(x,t):
     model = {'prior':[priorX0,priorX1],'mu':m,'sigma':s}
     
     return model
+	
 def nbpredict(x, model):
     predict = np.zeros(len(x))
     for p in range(len(x)):
