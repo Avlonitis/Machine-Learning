@@ -61,8 +61,6 @@ print("Mean MSE: {}, N: {}".format(lowestMeanmse,lowestMseN))
 print("Mean MAE: {}, N: {}".format(lowestMeanmae,lowestMaeN))
 print("-------------------------")
 
-
-
 xTrain, xTest, tTrain, tTest = train_test_split(x,t,test_size=0.1)
 model = MLPRegressor(hidden_layer_sizes=lowestMseN,
                       activation='relu',

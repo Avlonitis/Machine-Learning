@@ -59,8 +59,6 @@ print("Mean MSE: {}, gamma: {}, C: {}".format(lowestMeanmse,lowestMseGamma,lowes
 print("Mean MAE: {}, gamma: {}, C: {}".format(lowestMeanmae,lowestMaeGamma,lowestMaeC))
 print("-------------------------")
 
-
-
 xTrain, xTest, tTrain, tTest = train_test_split(x,t,test_size=0.1)
 model = SVR(C=lowestMseC, kernel='rbf',gamma=lowestMseGamma)
 model.fit(xTrain,tTrain)
