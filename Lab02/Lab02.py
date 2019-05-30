@@ -50,7 +50,6 @@ import numpy as np
 from sklearn.model_selection import train_test_split
 from matplotlib.pyplot import plot,subplot
  
- 
 data = pd.read_csv("http://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data", header=None).values
  
 NoP = data.shape[0]
@@ -95,8 +94,6 @@ for i in range(1,10):
     
     plot(predict,'ro',markersize=10)
     plot(tTest,'bo',markersize=5)
-
-
 
 meanaccuracy /= 9
 meanprecision /= 9
