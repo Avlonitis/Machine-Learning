@@ -11,7 +11,7 @@ def regevaluate(t, predict, criterion):
     else:
         return mean_absolute_error(t,predict)
     
-data = pd.read_csv("I:\housing.data",header=None,sep="\s+").values
+data = pd.read_csv("housing.data",header=None,sep="\s+").values
 
 NoP = data.shape[0]
 NoA = data.shape[1] 
