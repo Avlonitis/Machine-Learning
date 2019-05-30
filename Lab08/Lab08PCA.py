@@ -4,10 +4,7 @@ from matplotlib.pyplot import plot,subplot
 from sklearn.naive_bayes import GaussianNB
 from sklearn.decomposition import PCA
 
-    
 data = np.load('mnist_49.npz')
-
-
 
 x = data['x']
 t = data['t']
