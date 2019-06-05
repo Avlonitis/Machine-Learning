@@ -51,6 +51,7 @@ def evaluate(t,predict,criterion):
             return 0
         return (tn/(tn+fp))
     
+	
 data = pd.read_csv("http://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data", header=None).values
 
 NoP = data.shape[0]
