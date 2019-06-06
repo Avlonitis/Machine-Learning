@@ -105,7 +105,7 @@ for gm in [0.01, 0.03, 0.1, 0.3, 1]:
             bestMeanTestAccuracy=meanaccuracy
             bestC = cc
             bestG = gm
-        print("--------C:{}, gamma={}--------".format(gm,cc))
+        print("--------C:{}, gamma={}--------".format(cc,gm))
         print("Mean accuracy: "+str(meanaccuracy))
         print("Mean precision: "+str(meanprecision))
         print("Mean recall: "+str(meanrecall))
