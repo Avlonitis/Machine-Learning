@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split
 from matplotlib.pyplot import plot,subplot
 
 def perceptron(x,t,MAXEPOCHS,beta):
-    w = np.random.randn(5)
+    w = np.random.randn(len(x[0]))
     u = 0.0
     
     for i in range(MAXEPOCHS):
